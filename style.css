@@ -23,6 +23,7 @@ body{
     width:100%;
     background-color:#FCAF02;
     align-items: center;
+    position: sticky;
     /* border:1px solid black; */
 }
 .nav-logo{
@@ -51,7 +52,8 @@ body{
 .header{
     display: flex;
     margin-top:20px;
-    margin-left:50px;
+    /* margin-left:50px; */
+    padding-left:50px;
     width:100%;
     /* border:1px solid wheat; */
     overflow-y:hidden ;
@@ -145,15 +147,19 @@ table{
     width:90%;
     border-collapse: collapse;
     border:2px solid #FCAF02 ;
+    
     tbody{
          tr td{
             border-right:2px solid #FCAF02;
             border-left:2px solid #FCAF02;
+            padding:20px;
         }
+        
     }
     thead{
         tr th{
             border:2px solid #FCAF02;
+            padding:20px;
         }
     }
     tfoot{
@@ -162,6 +168,10 @@ table{
             border-right:2px solid #000;
             border-left:2px solid #FCAF02;  
             background-color: #FCAF02;
+            padding:20px;
+       }
+       span{
+        border-right: 2px solid #FCAF02;
        }
    }
    color:#FCAF02;
